@@ -1,0 +1,4 @@
+Bundle-Activator:org.example.rest4.Activator
+Private-Package: \
+	org.example.rest4
+Bundle-Version:0.0.0.${tstamp}

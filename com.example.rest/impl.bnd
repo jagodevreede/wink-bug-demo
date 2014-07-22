@@ -1,0 +1,4 @@
+Private-Package: \
+	org.example.configuration.impl
+Bundle-Version:1.0.0
+Bundle-Activator:org.example.configuration.impl.Activator

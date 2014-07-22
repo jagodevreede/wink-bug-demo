@@ -1,0 +1,468 @@
+<?xml version='1.0' encoding='utf-8'?>
+<repository increment='1406024913308' name='Local' xmlns='http://www.osgi.org/xmlns/repository/v1.0.0'>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='com.sun.jersey.core'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='83dcdf335ecbb70d113f045f9c8c742c03c299e3e824e8e51bf97cb070a101b1'/>
+      <attribute name='url' value='com.sun.jersey.core/com.sun.jersey.core-1.14.0.jar'/>
+      <attribute name='size' type='Long' value='466989'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='javax.ws.rs'/>
+      <attribute name='version' type='Version' value='1.1.1'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='javax.ws.rs.core'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='javax.ws.rs.core'/>
+      <attribute name='version' type='Version' value='1.1.1'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='javax.ws.rs.ext,javax.ws.rs'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='javax.ws.rs.ext'/>
+      <attribute name='version' type='Version' value='1.1.1'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='javax.ws.rs.core,javax.ws.rs'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.core.provider.jaxb'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='javax.ws.rs,javax.ws.rs.ext,javax.xml.bind,javax.ws.rs.core,javax.xml.parsers,com.sun.jersey.core.util,com.sun.jersey.core.provider,org.xml.sax,com.sun.jersey.api.provider.jaxb,javax.xml.transform.sax,javax.xml.bind.annotation,com.sun.jersey.core.impl.provider.entity,javax.xml.stream,javax.xml.transform,javax.xml.transform.stream'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.core.impl.provider.header'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='com.sun.jersey.core.header.reader,com.sun.jersey.spi,javax.ws.rs.core,com.sun.jersey.core.header'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.impl'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='com.sun.jersey.localization'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.core.util'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='com.sun.jersey.impl,javax.ws.rs.core,javax.xml.parsers'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.core.provider'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='com.sun.jersey.core.util,javax.ws.rs.ext,javax.ws.rs.core'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.core.spi.scanning'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='com.sun.jersey.core.util,com.sun.jersey.core.spi.scanning.uri,com.sun.jersey.spi.service,com.sun.jersey.core.reflection,com.sun.jersey.api.uri'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.api.provider.jaxb'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.core.header'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='com.sun.jersey.core.header.reader,javax.ws.rs.core,com.sun.jersey.core.util,com.sun.jersey.core.impl.provider.header,javax.ws.rs'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.core.impl.provider.xml'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='javax.xml.parsers,com.sun.jersey.core.util,javax.ws.rs.core,com.sun.jersey.core.spi.component,com.sun.jersey.spi.inject,org.xml.sax,javax.xml.validation,org.xml.sax.helpers,com.sun.jersey.impl,javax.xml.transform,javax.xml.stream'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.core.header.reader'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='javax.ws.rs.core,com.sun.jersey.core.header,com.sun.jersey.core.impl.provider.header'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.core.osgi'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='org.osgi.framework,com.sun.jersey.core.spi.scanning,com.sun.jersey.impl,com.sun.jersey.spi.service,com.sun.jersey.core.reflection,javax.ws.rs.ext'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.spi'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='javax.ws.rs.ext,javax.ws.rs.core'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.spi.inject'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='com.sun.jersey.core.spi.component'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.localization'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.core.spi.scanning.uri'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='com.sun.jersey.core.spi.scanning,com.sun.jersey.core.util,com.sun.jersey.api.uri,javax.ws.rs.core'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.core.spi.component'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='com.sun.jersey.spi.inject,com.sun.jersey.core.reflection,javax.ws.rs,com.sun.jersey.core.spi.factory,com.sun.jersey.spi.service'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.core.spi.factory'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='com.sun.jersey.spi,com.sun.jersey.spi.service,javax.ws.rs.ext,com.sun.jersey.api.uri,javax.ws.rs.core,com.sun.jersey.core.spi.component,com.sun.jersey.spi.inject,javax.ws.rs,com.sun.jersey.core.header,com.sun.jersey.core.util,com.sun.jersey.core.reflection'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.core.spi.component.ioc'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='com.sun.jersey.core.spi.component,com.sun.jersey.spi.inject'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.api.representation'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='com.sun.jersey.core.util'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.core.reflection'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='javax.ws.rs,javax.ws.rs.core,com.sun.jersey.core.osgi,com.sun.jersey.impl'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.core.impl.provider.entity'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='javax.ws.rs,com.sun.jersey.core.util,com.sun.jersey.core.provider,javax.ws.rs.core,javax.activation,javax.xml.parsers,javax.xml.transform.dom,org.w3c.dom,org.xml.sax,javax.xml.transform,javax.xml.transform.stream,com.sun.jersey.spi.inject,com.sun.jersey.spi,javax.ws.rs.ext,com.sun.jersey.api.representation,javax.mail.internet,javax.mail.util,javax.mail,javax.imageio.stream,javax.imageio.spi,javax.imageio,javax.xml.transform.sax,com.sun.jersey.core.provider.jaxb,javax.xml.bind,javax.xml.stream,javax.xml.bind.annotation,com.sun.jersey.impl'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.spi.service'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='com.sun.jersey.impl,com.sun.jersey.core.reflection,com.sun.jersey.core.osgi'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.api.uri'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.core'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='javax.ws.rs,com.sun.jersey.core.util,javax.ws.rs.core'/>
+    </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.activation)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.imageio)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.imageio.spi)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.imageio.stream)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.mail)'/>
+      <directive name='resolution' value='optional'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.mail.internet)'/>
+      <directive name='resolution' value='optional'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.mail.util)'/>
+      <directive name='resolution' value='optional'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.xml.bind)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.xml.bind.annotation)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.xml.parsers)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.xml.stream)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.xml.transform)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.xml.transform.dom)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.xml.transform.sax)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.xml.transform.stream)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.xml.validation)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=org.w3c.dom)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=org.xml.sax)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=org.xml.sax.helpers)'/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='com.sun.jersey.client'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='612e3506c2a0f7fe579ada7fc01494cbf1b55bbeb83752bb45d8c8be56a91423'/>
+      <attribute name='url' value='com.sun.jersey.client/com.sun.jersey.client-1.14.0.jar'/>
+      <attribute name='size' type='Long' value='129851'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='com.sun.jersey.client'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='com.sun.jersey.client'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.api.client.filter'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.client'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='com.sun.jersey.api.client,com.sun.jersey.core.util,javax.ws.rs.core'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.api.client.async'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.client'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='com.sun.jersey.api.client'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.api.client.config'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.client'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='com.sun.jersey.core.util'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.api.client'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.client'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='com.sun.jersey.api.client.async,javax.ws.rs.core,com.sun.jersey.client.impl,com.sun.jersey.api.client.filter,com.sun.jersey.client.proxy,com.sun.jersey.client.impl.async,com.sun.jersey.api.client.config,com.sun.jersey.core.spi.component.ioc,com.sun.jersey.spi.inject,com.sun.jersey.core.util,com.sun.jersey.core.spi.factory,javax.ws.rs.ext,com.sun.jersey.core.spi.component,com.sun.jersey.client.urlconnection,com.sun.jersey.spi,com.sun.jersey.spi.service,com.sun.jersey.core.provider,com.sun.jersey.core.header,com.sun.jersey.core.reflection'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.client.urlconnection'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.client'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='javax.net.ssl,com.sun.jersey.api.client,javax.ws.rs.core,com.sun.jersey.core.header,com.sun.jersey.spi'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.client.impl.async'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.client'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='com.sun.jersey.api.client.async,com.sun.jersey.api.client'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.client.proxy'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.client'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='com.sun.jersey.api.client.async,com.sun.jersey.api.client'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.jersey.client.impl'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.client'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='com.sun.jersey.core.header,com.sun.jersey.api.client,javax.ws.rs.core'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.sun.ws.rs.ext'/>
+      <attribute name='version' type='Version' value='1.14.0'/>
+      <attribute name='bundle-symbolic-name' value='com.sun.jersey.client'/>
+      <attribute name='bundle-version' type='Version' value='1.14.0'/>
+      <directive name='uses' value='com.sun.jersey.core.spi.factory,javax.ws.rs.core'/>
+    </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.sun.jersey.core.header)(version&gt;=1.14.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.sun.jersey.core.provider)(version&gt;=1.14.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.sun.jersey.core.reflection)(version&gt;=1.14.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.sun.jersey.core.spi.component)(version&gt;=1.14.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.sun.jersey.core.spi.component.ioc)(version&gt;=1.14.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.sun.jersey.core.spi.factory)(version&gt;=1.14.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.sun.jersey.core.util)(version&gt;=1.14.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.sun.jersey.spi)(version&gt;=1.14.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.sun.jersey.spi.inject)(version&gt;=1.14.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.sun.jersey.spi.service)(version&gt;=1.14.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.net.ssl)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=javax.ws.rs.core)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=javax.ws.rs.ext)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='org.apache.felix.dependencymanager'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='3.2.0'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='0790546101c79520999d5851fa36230b1185e32fd8f620555516b06b143143b1'/>
+      <attribute name='url' value='org.apache.felix.dependencymanager/org.apache.felix.dependencymanager-3.2.0.jar'/>
+      <attribute name='size' type='Long' value='352792'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='org.apache.felix.dependencymanager'/>
+      <attribute name='bundle-version' type='Version' value='3.2.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='org.apache.felix.dependencymanager'/>
+      <attribute name='bundle-version' type='Version' value='3.2.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.apache.felix.dm'/>
+      <attribute name='version' type='Version' value='3.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.apache.felix.dependencymanager'/>
+      <attribute name='bundle-version' type='Version' value='3.2.0'/>
+      <directive name='uses' value='org.osgi.framework'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.apache.felix.dm.tracker'/>
+      <attribute name='version' type='Version' value='3.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.apache.felix.dependencymanager'/>
+      <attribute name='bundle-version' type='Version' value='3.2.0'/>
+      <directive name='uses' value='org.osgi.framework,org.apache.felix.dm'/>
+    </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm.tracker)(version&gt;=3.1.0)(!(version&gt;=3.2.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.service.cm)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.service.metatype)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='org.apache.felix.dependencymanager.shell'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='3.2.0'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='8abdc97de5abe96aac15c2090d5544ddf7ccc06440d7a20f2daccee2efbf340d'/>
+      <attribute name='url' value='org.apache.felix.dependencymanager.shell/org.apache.felix.dependencymanager.shell-3.2.0.jar'/>
+      <attribute name='size' type='Long' value='21257'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='org.apache.felix.dependencymanager.shell'/>
+      <attribute name='bundle-version' type='Version' value='3.2.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='org.apache.felix.dependencymanager.shell'/>
+      <attribute name='bundle-version' type='Version' value='3.2.0'/>
+    </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <attribute name='status' value='provisional'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.service.command)(version&gt;=0.10.0)(!(version&gt;=1.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+  </resource>
+</repository>

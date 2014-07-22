@@ -1,0 +1,4 @@
+Bundle-Activator:org.example.rest2.Activator
+Private-Package: \
+	org.example.rest2
+Bundle-Version:0.0.0.${tstamp}
